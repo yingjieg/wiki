@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-08-25T02:30:24.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.9" etag="tYL-cion1kUJWbydJ_X1" type="github"><diagram id="QY2PGtmN27vBYlxytGzh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-25T03:08:44.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="W9eBcc7rSXnY5T_HtaKO" version="14.9.9" type="github">
+  <diagram id="QY2PGtmN27vBYlxytGzh" name="Page-1">
+    <mxGraphModel dx="1243" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="630" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-3" value="AWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="122" y="200" width="186" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
+          <mxGeometry x="6" y="31.11111111111111" width="180" height="108.88888888888889" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-5" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
+          <mxGeometry width="40" height="31.11111111111111" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-12" value="Minio Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
+          <mxGeometry x="45" y="50" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-13" value="FS Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
+          <mxGeometry x="45" y="90" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-11" value="" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="240" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-2" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFCC99;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-11">
+          <mxGeometry width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-9" value="" style="endArrow=classic;html=1;exitX=1.014;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FEXgZ5D_SaQ2KoDr0qTC-11" source="FEXgZ5D_SaQ2KoDr0qTC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="21" y="140" as="sourcePoint" />
+            <mxPoint x="-1" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-10" value="" style="endArrow=classic;html=1;" edge="1" parent="FEXgZ5D_SaQ2KoDr0qTC-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1" y="20" as="sourcePoint" />
+            <mxPoint x="-111" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-15" value="oss.appen.com.cn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2FAFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="486" y="430" as="sourcePoint" />
+            <mxPoint x="486" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-18" value="https://oss-api.appen.com.cn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="491" y="460" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-19" value="https://oss.appen.com.cn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="510" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-20" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2FAFF;" vertex="1" parent="1">
+          <mxGeometry x="187" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-24" value="Worker" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2FAFF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="720" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-25" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484.6" y="700" as="sourcePoint" />
+            <mxPoint x="484.6" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-26" value="Get customer&#39;s data through pre-signed URL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="650" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-27" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="201.6" y="510" as="sourcePoint" />
+            <mxPoint x="201.6" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-28" value="China Annotation Platform" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
