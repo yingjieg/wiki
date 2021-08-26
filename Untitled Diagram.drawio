@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-25T03:53:29.236Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="B62mVxCj1804X2kGCFnM" version="14.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-26T06:46:54.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="b1FR0aXCjz7dosN1kvcV" version="14.9.9" type="github">
   <diagram id="QY2PGtmN27vBYlxytGzh" name="Page-1">
     <mxGraphModel dx="1243" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,58 +11,31 @@
           <mxGeometry x="30" y="120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-7" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="79" y="180" width="150" height="120" as="geometry" />
+          <mxGeometry x="80" y="240" width="170" height="140" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
-          <mxGeometry x="4.451612903225806" y="26.666666666666668" width="133.5483870967742" height="93.33333333333333" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-5" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
-          <mxGeometry width="29.67741935483871" height="26.666666666666668" as="geometry" />
+          <mxGeometry x="5.04516129032258" y="31.11111111111111" width="151.35483870967744" height="108.88888888888887" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-12" value="Minio Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
-          <mxGeometry x="22.9" y="35.71000000000001" width="96.65" height="48.57000000000001" as="geometry" />
+          <mxGeometry x="25.953333333333333" y="41.66166666666667" width="109.53666666666666" height="40.00499999999999" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-67" value="FS Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
-          <mxGeometry x="22.9" y="90" width="97.1" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-76" value="Customer A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-7">
-          <mxGeometry x="68" y="3.33" width="82" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-11" value="" style="group;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="481" y="97.30000000000001" width="101" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-46" value="" style="group" vertex="1" connectable="0" parent="FEXgZ5D_SaQ2KoDr0qTC-11">
-          <mxGeometry x="-50" y="82.7" width="151" height="117.3" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-46">
-          <mxGeometry x="4.451612903225806" y="26.06666666666667" width="133.5483870967742" height="91.23333333333333" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-48" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-46">
-          <mxGeometry width="29.67741935483871" height="26.06666666666667" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-49" value="Minio Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-46">
-          <mxGeometry x="22.9" y="34.916375" width="96.65" height="47.477175" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-73" value="FS Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-46">
-          <mxGeometry x="22.899999999999977" y="90" width="97.1" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-77" value="Customer B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-46">
-          <mxGeometry x="69" y="3.030000000000001" width="82" height="20" as="geometry" />
+          <mxGeometry x="25.953333333333333" y="93.33333333333331" width="110.04666666666665" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-15" value="Domain: oss.appen.com.cn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2FAFF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="460" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-18" value="https://oss-api.appen.com.cn/a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-18" value="https://oss-api.appen.com.cn/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="435" y="550" width="225" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-19" value="https://oss.appen.com.cn/a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-19" value="https://oss.appen.com.cn/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="550" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-20" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2FAFF;" vertex="1" parent="1">
           <mxGeometry x="187" y="620" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-24" value="Worker" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2FAFF;" vertex="1" parent="1">
-          <mxGeometry x="410" y="860" width="30" height="60" as="geometry" />
+          <mxGeometry x="532.5" y="750" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-25" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -85,8 +58,8 @@
             <mxPoint x="424" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-30" value="Custom can browse manage their files on Minio Console" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="590" width="120" height="70" as="geometry" />
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-30" value="Custom can browse and manage their files through Minio Console UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-31" value="Browser - Task Page" style="swimlane;fillColor=none;strokeColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="355" y="740" width="140" height="100" as="geometry" />
@@ -94,44 +67,23 @@
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-26" value="Load customer&#39;s data through pre-signed URL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-31">
           <mxGeometry x="17.5" y="50" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-36" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="79" y="320" width="153" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-36">
-          <mxGeometry x="4.451612903225806" y="26.666666666666668" width="133.5483870967742" height="93.33333333333333" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-38" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-36">
-          <mxGeometry width="29.67741935483871" height="26.666666666666668" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-39" value="Minio Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-36">
-          <mxGeometry x="22.9" y="35.71000000000001" width="96.65" height="48.57000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-74" value="FS Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-36">
-          <mxGeometry x="22.450000000000003" y="90" width="97.1" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-78" value="Customer C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-36">
-          <mxGeometry x="61" y="3.330000000000041" width="82" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-2" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFCC99;strokeColor=#FFB570;" vertex="1" parent="1">
-          <mxGeometry x="285" y="290" width="70" height="80" as="geometry" />
+          <mxGeometry x="402" y="280" width="84" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-56" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="429.4318181818182" y="320" width="152.5681818181818" height="120" as="geometry" />
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-5" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85.15999999999998" y="240" width="29.67741935483871" height="26.666666666666668" as="geometry" />
         </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-56">
-          <mxGeometry x="4.5" y="30" width="135.07" height="90" as="geometry" />
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-81" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" target="FEXgZ5D_SaQ2KoDr0qTC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="350" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-58" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-56">
-          <mxGeometry x="4" y="10" width="30.014662756598245" height="17.77777777777778" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-59" value="Minio Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-56">
-          <mxGeometry x="23.81" y="36.35" width="97.75" height="47.3" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-75" value="FS Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-56">
-          <mxGeometry x="23.808181818181822" y="90" width="97.1" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-79" value="Customer D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FEXgZ5D_SaQ2KoDr0qTC-56">
-          <mxGeometry x="70.56818181818181" y="7.78000000000003" width="82" height="20" as="geometry" />
+        <mxCell id="FEXgZ5D_SaQ2KoDr0qTC-82" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=60;exitPerimeter=0;" edge="1" parent="1" source="FEXgZ5D_SaQ2KoDr0qTC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="390" as="sourcePoint" />
+            <mxPoint x="236" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
