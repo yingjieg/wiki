@@ -1,3 +1,10 @@
+## Basics
+
+Kubernetes workloads aren’t network-visible by default. You make containers available to the outside world by creating a service. Service resources route traffic into the containers within pods.
+
+A service is an abstract mechanism for exposing pods on a network. Each service is assigned a type—either ClusterIP, NodePort, or LoadBalancer. These define how external traffic reaches the service.
+
+
 ### Cluster IP:
 
 * This is the default service type that exposes the service on a cluster-internal IP by making the service only reachable within the cluster.
@@ -26,3 +33,8 @@
 * You can only use ports 30,000-32,767
 * If your Node/VM IP address change, you need to deal with that
 * For these reasons, I don’t recommend using this method in production to directly expose your service. If you are running a service that doesn’t have to be always available, or you are very cost-sensitive, this method will work for you. A good example of such an application is a demo app or something temporary.
+
+
+
+![image](https://user-images.githubusercontent.com/1982362/206658333-60676ca8-4734-46a5-ad83-396082169da8.png)
+
